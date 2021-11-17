@@ -13,6 +13,7 @@
 		D9D6CA3E274269C60048D8DA /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D9D6CA3C274269C60048D8DA /* Main.storyboard */; };
 		D9D6CA40274269CB0048D8DA /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = D9D6CA3F274269CB0048D8DA /* Assets.xcassets */; };
 		D9D6CA43274269CB0048D8DA /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D9D6CA41274269CB0048D8DA /* LaunchScreen.storyboard */; };
+		D9D6CA4D27427B310048D8DA /* GENotification in Frameworks */ = {isa = PBXBuildFile; productRef = D9D6CA4C27427B310048D8DA /* GENotification */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -31,6 +32,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				D9D6CA4D27427B310048D8DA /* GENotification in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -83,6 +85,9 @@
 			dependencies = (
 			);
 			name = GENotificationDemo;
+			packageProductDependencies = (
+				D9D6CA4C27427B310048D8DA /* GENotification */,
+			);
 			productName = GENotificationDemo;
 			productReference = D9D6CA33274269C60048D8DA /* GENotificationDemo.app */;
 			productType = "com.apple.product-type.application";
@@ -111,6 +116,9 @@
 				Base,
 			);
 			mainGroup = D9D6CA2A274269C60048D8DA;
+			packageReferences = (
+				D9D6CA4B27427B310048D8DA /* XCRemoteSwiftPackageReference "GENotification" */,
+			);
 			productRefGroup = D9D6CA34274269C60048D8DA /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
@@ -360,6 +368,25 @@
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
+
+/* Begin XCRemoteSwiftPackageReference section */
+		D9D6CA4B27427B310048D8DA /* XCRemoteSwiftPackageReference "GENotification" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/Goeun1001/GENotification";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 0.0.1;
+			};
+		};
+/* End XCRemoteSwiftPackageReference section */
+
+/* Begin XCSwiftPackageProductDependency section */
+		D9D6CA4C27427B310048D8DA /* GENotification */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = D9D6CA4B27427B310048D8DA /* XCRemoteSwiftPackageReference "GENotification" */;
+			productName = GENotification;
+		};
+/* End XCSwiftPackageProductDependency section */
 	};
 	rootObject = D9D6CA2B274269C60048D8DA /* Project object */;
 }

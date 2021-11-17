@@ -15,7 +15,6 @@ public class GENotification: NSObject {
         
         content.title = alertTitle
         content.body = alertBody
-        content.badge = 1
         
         let trigger = UNTimeIntervalNotificationTrigger(timeInterval: afterSecond, repeats: false)
         let request = UNNotificationRequest(identifier: "GENotification", content: content, trigger: trigger)
@@ -28,7 +27,6 @@ public class GENotification: NSObject {
         
         content.title = alertTitle
         content.body = alertBody
-        content.badge = 1
         
         let trigger = UNTimeIntervalNotificationTrigger(timeInterval: TimeInterval(afterSecond), repeats: false)
         let request = UNNotificationRequest(identifier: "GENotification", content: content, trigger: trigger)
@@ -41,7 +39,6 @@ public class GENotification: NSObject {
         
         content.title = alertTitle
         content.body = alertBody
-        content.badge = 1
         
         let trigger = UNTimeIntervalNotificationTrigger(timeInterval: TimeInterval(afterSecond), repeats: false)
         let request = UNNotificationRequest(identifier: "GENotification", content: content, trigger: trigger)

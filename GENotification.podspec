@@ -8,7 +8,7 @@
 
 Pod::Spec.new do |spec|
   spec.name         = "GENotification"
-  spec.version      = "0.1.0"
+  spec.version      = "1.0.1"
   spec.swift_version = "5.0"
   spec.summary      = "iOS & MacOS Local Notification"
   spec.description  = "iOS & MacOS Local Notification."

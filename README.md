@@ -21,7 +21,7 @@ pod 'GENotification'
 #### SPM
 
 ```
-.package(url: "https://github.com/Goeun1001/GENotification.git", from: "0.0.1")
+.package(url: "https://github.com/Goeun1001/GENotification.git", from: "1.0.0")
 ```
 
 
